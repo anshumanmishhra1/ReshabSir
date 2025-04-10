@@ -101,7 +101,7 @@ function searchCredentials(e){
     const searchInput = e.target.value;
     const credentials = JSON.parse(localStorage.getItem('credentials')) || [];
     credentials.filter((ele)=>{
-        return ele === credentials;       
+        return ele === credentials;         
     })
     console.log(searchInput);
 }
